@@ -23,3 +23,5 @@ Umbraco Part:
 4. Copy the ID from the media folder and insert it into the code (line 63).
 
 Now you should be able to run the method (DownloadLatesInstagramPosts()).
+
+![alt text](https://i.ibb.co/D1y9YkW/instagram-backoffice.png)
