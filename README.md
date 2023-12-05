@@ -1,5 +1,5 @@
 # UmbracoInstagramImport
-Method to download instragram post from instagram feed
+Method to download instagram post from instagram feed
 
 Here is a little guide to get up and running with this Instagram import.
 
