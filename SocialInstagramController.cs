@@ -1,29 +1,21 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using project.Code.Models;
+using Microsoft.AspNetCore.Hosting;
 using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Text;
-using System.Threading.Tasks;
+using Umbraco.Cms.Core;
 using Umbraco.Cms.Core.Cache;
+using Umbraco.Cms.Core.IO;
 using Umbraco.Cms.Core.Logging;
+using Umbraco.Cms.Core.Models;
+using Umbraco.Cms.Core.Models.PublishedContent;
+using Umbraco.Cms.Core.PropertyEditors;
 using Umbraco.Cms.Core.Routing;
 using Umbraco.Cms.Core.Services;
+using Umbraco.Cms.Core.Strings;
 using Umbraco.Cms.Core.Web;
 using Umbraco.Cms.Infrastructure.Persistence;
 using Umbraco.Cms.Web.Website.Controllers;
-using System.Web;
-using Umbraco.Cms.Core.Models.PublishedContent;
-using Umbraco.Cms.Core.Models;
-using Umbraco.Extensions;
-using Umbraco.Cms.Core;
-using Umbraco.Cms.Core.IO;
-using Umbraco.Cms.Core.PropertyEditors;
-using Umbraco.Cms.Core.Strings;
-using Microsoft.AspNetCore.Hosting;
-using System.Globalization;
-using project.Code.Models;
 
 namespace project.Code.Controllers
 {
